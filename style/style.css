@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.book-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-transition{
+    border-radius: 40px;
+}
+
+.img-transition:hover{
+    transition-timing-function: ease-in-out;
+    transition: 0.8s;
+    transform: translateY(-20px);
+}
+
+.img-transition-about{
+    border-radius: 35px;
+}
+
+#bookBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder{
+    font-size: 0.85rem;
+}
